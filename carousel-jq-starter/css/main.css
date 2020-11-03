@@ -19,6 +19,7 @@
 .slider-wrapper .images {
   height: 100%;
   text-align: center;
+  transition: all 0.15s;
 }
 .slider-wrapper .images img {
   display: none;
@@ -52,7 +53,8 @@
 }
 .nav > i {
   margin: 0 20px;
+  transition: all 0.15s;
 }
 .nav > i.active {
-  color: blue;
+  color: red;
 }
